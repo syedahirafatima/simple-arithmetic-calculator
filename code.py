@@ -43,5 +43,5 @@ def calculator():
     except ValueError:
         print("Invalid input. Please enter numeric values.")
 
-# for running the calculator
+# running the calculator
 calculator()
