@@ -23,7 +23,7 @@ def calculator():
     print("4. Divide")
 
     try:
-        choice = input("Enter choice (1/2/3/4): ")
+        choice = input("Enter  choice (1/2/3/4): ")
         if choice not in ['1', '2', '3', '4']:
             print("Invalid input. Please choose from 1 to 4.")
             return
